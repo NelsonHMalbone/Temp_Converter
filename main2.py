@@ -9,7 +9,5 @@ if user_Unit_Input == 'K':
     pass
 elif user_Unit_Input == 'C':
     pass
-elif user_Unit_Input == 'F':
-    pass
 else:
     print(f'The {user_Unit_Input} is not valid please try again. ')
