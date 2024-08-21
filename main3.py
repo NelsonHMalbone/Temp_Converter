@@ -6,7 +6,8 @@ user_Unit_input = input("Is this conversion for ('K') Kelvin, ('F') Fahrenheit: 
 user_Temp_input = float(input("Enter Temperture to convert: "))
 
 if user_Unit_input == "K":
-    pass
+    user_Temp_input = round(9 / 5 * (user_Temp_input - 273) + 32, 2)
+    print(f'The temperature in Celsius is: {user_Temp_input}°F')
 elif user_Unit_input == "F":
     pass
 else:
